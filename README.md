@@ -40,7 +40,8 @@ GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
 
-I got some errors many times. 
+After making basic functions, I tried to add a loading state. I installed MBProgressHUD, but it did not work at all.
+I got up to 4 issues on Xcode. Therefore, I made all files again. 
 
 ## License
 
