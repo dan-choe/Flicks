@@ -4,10 +4,5 @@
 use_frameworks!
 
 target 'MovieViewer' do
-    pod 'AFNetworking'
+pod 'AFNetworking'
 end
-
-target 'MovieViewer' do
-    pod 'SVProgressHUD'
-end
-

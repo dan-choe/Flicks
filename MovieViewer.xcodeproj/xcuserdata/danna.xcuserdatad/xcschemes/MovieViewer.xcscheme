@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "B16814EB1C5CDD3900142B8D"
+               BlueprintIdentifier = "B17514D51C60688000C72B2A"
                BuildableName = "MovieViewer.app"
                BlueprintName = "MovieViewer"
                ReferencedContainer = "container:MovieViewer.xcodeproj">
@@ -32,7 +32,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "B16814EB1C5CDD3900142B8D"
+            BlueprintIdentifier = "B17514D51C60688000C72B2A"
             BuildableName = "MovieViewer.app"
             BlueprintName = "MovieViewer"
             ReferencedContainer = "container:MovieViewer.xcodeproj">
@@ -55,7 +55,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "B16814EB1C5CDD3900142B8D"
+            BlueprintIdentifier = "B17514D51C60688000C72B2A"
             BuildableName = "MovieViewer.app"
             BlueprintName = "MovieViewer"
             ReferencedContainer = "container:MovieViewer.xcodeproj">
@@ -74,7 +74,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "B16814EB1C5CDD3900142B8D"
+            BlueprintIdentifier = "B17514D51C60688000C72B2A"
             BuildableName = "MovieViewer.app"
             BlueprintName = "MovieViewer"
             ReferencedContainer = "container:MovieViewer.xcodeproj">

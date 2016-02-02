@@ -8,14 +8,10 @@
 
 import UIKit
 import AFNetworking
-//import SVProgressHUD
 
-
-class MovieViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
+class MovieViewController: UIViewController, UITableViewDataSource, UITableViewDelegate{
 
     @IBOutlet weak var tableView: UITableView!
-   
-   
     
     var movies: [NSDictionary]?
     
@@ -24,9 +20,8 @@ class MovieViewController: UIViewController, UITableViewDataSource, UITableViewD
         super.viewDidLoad()
         
         tableView.dataSource = self
+        
         tableView.delegate = self
-        
-        
         
         let apiKey = "a07e22bc18f5cb106bfe4cc1f83ad8ed"
         let url = NSURL(string: "https://api.themoviedb.org/3/movie/now_playing?api_key=\(apiKey)")
@@ -56,7 +51,7 @@ class MovieViewController: UIViewController, UITableViewDataSource, UITableViewD
         task.resume()
         
     }
-
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
@@ -102,15 +97,15 @@ class MovieViewController: UIViewController, UITableViewDataSource, UITableViewD
         print("row \(indexPath.row)")
         return cell
     }
-
+    
     /*
     // MARK: - Navigation
-
+    
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+    // Get the new view controller using segue.destinationViewController.
+    // Pass the selected object to the new view controller.
     }
     */
-
+    
 }

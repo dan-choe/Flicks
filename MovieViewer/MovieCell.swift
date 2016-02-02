@@ -11,11 +11,10 @@ import UIKit
 class MovieCell: UITableViewCell {
 
     @IBOutlet weak var titleLabel: UILabel!
+    
     @IBOutlet weak var overviewLabel: UILabel!
     
     @IBOutlet weak var posterView: UIImageView!
-    @IBOutlet weak var backView: UIImageView!
-    
     
     override func awakeFromNib() {
         super.awakeFromNib()
