@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		84B05F311C6AC5D90039CFCC /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B05F301C6AC5D90039CFCC /* DetailViewController.swift */; };
 		B17514DA1C60688000C72B2A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B17514D91C60688000C72B2A /* AppDelegate.swift */; };
 		B17514DF1C60688000C72B2A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B17514DD1C60688000C72B2A /* Main.storyboard */; };
 		B17514E11C60688000C72B2A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B17514E01C60688000C72B2A /* Assets.xcassets */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		84B05F301C6AC5D90039CFCC /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		AFF3E450F2FD56A0C8D468F8 /* Pods-MovieViewer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MovieViewer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MovieViewer/Pods-MovieViewer.debug.xcconfig"; sourceTree = "<group>"; };
 		B17514D61C60688000C72B2A /* MovieViewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MovieViewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B17514D91C60688000C72B2A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -78,6 +80,7 @@
 			isa = PBXGroup;
 			children = (
 				B17514EB1C6068DA00C72B2A /* MovieViewController.swift */,
+				84B05F301C6AC5D90039CFCC /* DetailViewController.swift */,
 			);
 			name = "View Controller";
 			sourceTree = "<group>";
@@ -233,6 +236,7 @@
 				B17514DA1C60688000C72B2A /* AppDelegate.swift in Sources */,
 				B17514EC1C6068DA00C72B2A /* MovieViewController.swift in Sources */,
 				B17514EE1C606A8500C72B2A /* MovieCell.swift in Sources */,
+				84B05F311C6AC5D90039CFCC /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
