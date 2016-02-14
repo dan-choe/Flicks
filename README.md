@@ -2,7 +2,7 @@
 
 Flicks is a movies app using the [The Movie Database API](http://docs.themoviedb.apiary.io/#).
 
-Time spent: 9 hours spent in total
+Time spent: 13 hours spent in total
 
 ## User Stories
 
@@ -18,12 +18,14 @@ The following **optional** features are implemented:
 - [ ] User sees an error message when there's a networking error.
 - [ ] Movies are displayed using a CollectionView instead of a TableView.
 - [x] User can search for a movie.
-- [ ] All images fade in as they are loading.
-- [ ] Customize the UI.
+- [x] All images fade in as they are loading.
+- [x] Customize the UI.
 
 The following **additional** features are implemented:
 
-- [x] List anything else that you can get done to improve the app functionality!
+- [x] Add tab buttons to show the top rated movies
+- [x] Load low resolution images first, then switch to high resolution images
+- [x] Customized the navigation bar
 - [x] User can see the detail view if the user clicks a movie on the list of movies
 
 Please list two areas of the assignment you'd like to **discuss further with your peers** during the next class (examples include better ways to implement something, how to extend your app in certain ways, etc):
@@ -35,7 +37,7 @@ Please list two areas of the assignment you'd like to **discuss further with you
 
 Here's a walkthrough of implemented user stories:
 
-<img src='https://raw.githubusercontent.com/dan-choe/Flicks/master/flicks.gif' title='Tip-Calculator' width='' alt='Tip-Calculator' />
+<img src='https://raw.githubusercontent.com/dan-choe/Flicks/master/flicks4.gif' title='Tip-Calculator' width='' alt='Tip-Calculator' />
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
