@@ -130,11 +130,12 @@
         <!--Navigation Controller-->
         <scene sceneID="Sfm-4r-3Eh">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="IPx-uY-vbq" sceneMemberID="viewController">
+                <navigationController storyboardIdentifier="MoviesNavigationController" automaticallyAdjustsScrollViewInsets="NO" id="IPx-uY-vbq" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="8ad-yW-W4b">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
